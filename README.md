@@ -161,7 +161,7 @@ misses and triggers write-allocate traffic, and blocking only recovers 1.22x
 because the write side stays strided. On an NPU this is the DMA descriptor /
 bank-conflict problem, solved the same way: tile, and transpose in SRAM.
 
-## What this demonstrates (mapped to the role)
+## What this demonstrates
 
 - **Operator implementation:** LayerNorm, RMSNorm, softmax, reductions,
   transpose, gather-free reshape-equivalents, quant/dequant, fused elementwise —
